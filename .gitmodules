@@ -1,3 +1,6 @@
 [submodule "cg_protos"]
 	path = cg_protos
 	url = https://github.com/JasurbekUz/cg_protos.git
+[submodule "book-shop_protos"]
+	path = book-shop_protos
+	url = https://github.com/JasurbekUz/book-shop_protos.git
