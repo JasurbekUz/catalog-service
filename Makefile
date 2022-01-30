@@ -15,7 +15,8 @@ lint: ## Run golangci-lint with printing to stdout
         golangci-lint -c .golangci.yaml run ./...
 
 pull-submodule:
-         git submodule update --init --recursive --remote
+        git submodule update --init --recursive --remote
+.PHONY: submodule
 
 
 
