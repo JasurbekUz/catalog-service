@@ -7,7 +7,7 @@ import (
 )
 
 func (s *CatalogService) CreateBook(ctx context.Context, req *cs.Book) (*cs.Get_Book, error) {
-	
+
 	return &cs.Get_Book{} , nil
 }
 
